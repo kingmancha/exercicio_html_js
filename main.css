@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(54, 54, 235);
+    color: #fff;
+    font-family: Cambria, Arial;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form input, form textarea {
+    outline: none;
+    width: 100px;
+}
+
+
+
+button {
+    background-color: gray;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 15px;
+    cursor: pointer;
+}
